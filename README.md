@@ -80,12 +80,12 @@ Zero corrupted data bits and zero timing violations.
 
 **🛠️ LLM-Generated Coding Errors Identified & Fixed**
 The project includes five categories of real-world coding bugs, auto-generated and debugged:
-Error Type	                                   Issue
-❌ Logical Operator Error                     && instead of `
-❌ Missing MSB Initialization                 Highest bit never loaded
-❌ Skip-by-2 Bit Counter	                     bit_cnt += 2 causing missing bits
-❌ Off-by-One Frame Boundary	                 Last frame byte ignored
-❌ Repeated Transmissions	                     Missing deassertion handling
+  Error Type	                                   Issue
+ Logical Operator Error                     && instead of `
+ Missing MSB Initialization                 Highest bit never loaded
+ Skip-by-2 Bit Counter	                    bit_cnt += 2 causing missing bits
+ Off-by-One Frame Boundary	                Last frame byte ignored
+ Repeated Transmissions	                    Missing deassertion handling
 
 **📈 Key Achievements**
 ✔ Complete UART transmitter/receiver architecture
@@ -95,7 +95,7 @@ Error Type	                                   Issue
 ✔ Detailed error analysis + corrected HDL implementations
 ✔ Clean documentation with timing diagrams & block diagrams
 
-**🔮 Future Enhancements**
+🔮 Future Enhancements
 ✔Multi-protocol verification (SPI, I²C, CAN)
 ✔Integration with GitHub Actions for CI
 ✔Hardware implementation on FPGA
