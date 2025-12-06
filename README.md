@@ -43,7 +43,6 @@ uart-protocol-with-assertions/
 |CLK_FREQ	    | 100 MHz |System clock|
 
 Defined in uart_params.sv 
-.
 
 # How to Run SystemVerilog Simulation
 This repository uses only two commands for full verification.
@@ -51,7 +50,7 @@ This repository uses only two commands for full verification.
  ## Run Cocotb Simulation
 python -m pytest test_uart.py --log-cli-level=INFO -s
 
-This will:
+#This will:
 -Run Cocotb testbench
 -Apply test patterns
 -Perform assertion checks
@@ -76,12 +75,12 @@ Zero corrupted data bits and zero timing violations.
 
 # LLM-Generated Coding Errors Identified & Fixed
 The project includes five categories of real-world coding bugs, auto-generated and debugged:
-  Error Type	                                   Issue
- Logical Operator Error                     && instead of `
- Missing MSB Initialization                 Highest bit never loaded
- Skip-by-2 Bit Counter	                    bit_cnt += 2 causing missing bits
- Off-by-One Frame Boundary	                Last frame byte ignored
- Repeated Transmissions	                    Missing deassertion handling
+ | Error Type	               |          Issue                   |
+ |Logical Operator Error     | && instead of `                  |
+ |Missing MSB Initialization | Highest bit never loaded         |
+ |Skip-by-2 Bit Counter	     | bit_cnt += 2 causing missing bits|
+ |Off-by-One Frame Boundary	 | Last frame byte ignored          |
+ |Repeated Transmissions	   | Missing deassertion handling     |
 
 # Key Achievements
 - Complete UART transmitter/receiver architecture
