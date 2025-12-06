@@ -16,26 +16,21 @@ All tests passed successfully with 100% correct data reception
 
 # Repository Structure
 uart-protocol-with-assertions/
-│
-├── rtl/
-│   ├── uart_params.sv                    # Global UART configuration
-│   ├── uart_tx.sv                        # Transmitter module
-│   ├── uart_rx.sv                        # Receiver module
-│   └── uart_top.sv                       # Loopback integration
-│
-├── cocotb_testbench/
-│   ├── test_uart.py                      # SystemVerilog + Cocotb test
-│   └── test_coco_uart.py                 # Basic cocotb UART test
-│
-├── corrected_code/
-│   ├── uart_tx_corrected.sv              # Corrected TX (LLM errors fixed)
-│   └── uart_rx_corrected.sv              # Corrected RX 
-│
-├── simulations/
-│   ├── uart_simulation.vcd               # Waveform output 
-│   └── run instructions / Makefile
-│
-└── README.md
+- rtl/
+  - uart_params.sv                    # Global UART configuration
+  - uart_tx.sv                        # Transmitter module
+  - uart_rx.sv                        # Receiver module
+  - uart_top.sv                       # Loopback integration
+- cocotb_testbench/
+  - test_uart.py                      # SystemVerilog + Cocotb test
+  - test_coco_uart.py                 # Basic cocotb UART test
+- corrected_code/
+  - uart_tx_corrected.sv              # Corrected TX (LLM errors fixed)
+  - uart_rx_corrected.sv              # Corrected RX 
+- simulations/
+  - uart_simulation.vcd               # Waveform output 
+  - run instructions / Makefile
+- README.md
 
 # UART Configuration
 Parameter	  | Value	 | Description
