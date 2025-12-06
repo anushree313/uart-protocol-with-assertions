@@ -33,13 +33,14 @@ uart-protocol-with-assertions/
 - README.md
 
 # UART Configuration
-Parameter	  | Value	 | Description
-DATA_BITS	    6	       Configurable data width
-PARITY_EN	    1	       Parity enabled
-PARITY_TYPE   0	       Even parity
-STOP_DUR	    1	       One stop bit
-BAUD_RATE	   9600	     Standard UART baud rate
-CLK_FREQ	   100 MHz	 System clock
+ |Parameter	  | Value	 | Description |
+ |------------|--------|-------------|
+-DATA_BITS	    6	       Configurable data width
+-PARITY_EN	    1	       Parity enabled
+-PARITY_TYPE    0	       Even parity
+-STOP_DUR	      1	       One stop bit
+-BAUD_RATE	   9600	     Standard UART baud rate
+=CLK_FREQ	   100 MHz	   System clock
 
 Defined in uart_params.sv 
 .
@@ -61,13 +62,14 @@ This will:
 gtkwave uart_simulation.vcd
 
 # Test Patterns Used
-Pattern	   Binary	    Purpose   	   Result
-0	         000000	    All zeros	      PASS
-63	       111111	    All ones        PASS
-42	       101010	    Alternating 1	  PASS
-21         010101	    Alternating 2	  PASS
-51	       110011   	Mixed pattern 1	PASS
-12	       001100   	Mixed pattern 2	PASS
+|Pattern	|   Binary	|    Purpose   | Result |
+|---------|-----------|--------------|--------|
+0	         000000	    All zeros	       PASS
+63	       111111	    All ones         PASS
+42	       101010	    Alternating 1	   PASS
+21         010101	    Alternating 2	   PASS
+51	       110011   	Mixed pattern 1	 PASS
+12	       001100   	Mixed pattern 2	 PASS
 
 Pass Rate: 100%
 Zero corrupted data bits and zero timing violations. 
