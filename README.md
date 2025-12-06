@@ -76,7 +76,7 @@ Pattern	   Binary	    Purpose   	   Result
 12	       001100   	Mixed pattern 2	PASS
 
 Pass Rate: 100%
-Zero corrupted data bits and zero timing violations.
+Zero corrupted data bits and zero timing violations. 
 
 **🛠️ LLM-Generated Coding Errors Identified & Fixed**
 The project includes five categories of real-world coding bugs, auto-generated and debugged:
