@@ -95,7 +95,7 @@ Error Type	                                   Issue
 ✔ Detailed error analysis + corrected HDL implementations
 ✔ Clean documentation with timing diagrams & block diagrams
 
-🔮 Future Enhancements
+**🔮 Future Enhancements**
 ✔Multi-protocol verification (SPI, I²C, CAN)
 ✔Integration with GitHub Actions for CI
 ✔Hardware implementation on FPGA
