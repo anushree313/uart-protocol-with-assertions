@@ -2,7 +2,6 @@
 This project implements a parameterized UART Transmitter and Receiver and verifies it using a Cocotb-based Python testbench.
 The design is portable, reproducible, and runs entirely on open-source tools: Cocotb, Python, Icarus Verilog, and GTKWave.
 
-
 # Project Overview
 This project verifies a UART TX/RX communication system using:
 - UART TX/RX modules in SystemVerilog
@@ -50,12 +49,12 @@ This repository uses only two commands for full verification.
  ## Run Cocotb Simulation
 python -m pytest test_uart.py --log-cli-level=INFO -s
 
-#This will:
--Run Cocotb testbench
--Apply test patterns
--Perform assertion checks
--Generate waveform: uart_simulation.vcd
--Print TX/RX verification results
+##This will:
+  - Run Cocotb testbench
+  - Apply test patterns
+  - Perform assertion checks
+  - Generate waveform: uart_simulation.vcd
+  - Print TX/RX verification results
 
 ## 2️⃣ Open the Waveform in GTKWave
 gtkwave uart_simulation.vcd
@@ -76,6 +75,7 @@ Zero corrupted data bits and zero timing violations.
 # LLM-Generated Coding Errors Identified & Fixed
 The project includes five categories of real-world coding bugs, auto-generated and debugged:
  | Error Type	               |          Issue                   |
+ |---------------------------|----------------------------------|
  |Logical Operator Error     | && instead of `                  |
  |Missing MSB Initialization | Highest bit never loaded         |
  |Skip-by-2 Bit Counter	     | bit_cnt += 2 causing missing bits|
