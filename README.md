@@ -29,7 +29,7 @@ uart-protocol-with-assertions/
 │
 ├── corrected_code/
 │   ├── uart_tx_corrected.sv              # Corrected TX (LLM errors fixed)
-│   └── uart_rx_corrected.sv              # Corrected RX
+│   └── uart_rx_corrected.sv              # Corrected RX 
 │
 ├── simulations/
 │   ├── uart_simulation.vcd               # Waveform output 
