@@ -33,14 +33,14 @@ uart-protocol-with-assertions/
 - README.md
 
 # UART Configuration
- |Parameter	  | Value	 | Description |
- |------------|--------|-------------|
--DATA_BITS	    6	       Configurable data width
--PARITY_EN	    1	       Parity enabled
--PARITY_TYPE    0	       Even parity
--STOP_DUR	      1	       One stop bit
--BAUD_RATE	   9600	     Standard UART baud rate
-=CLK_FREQ	   100 MHz	   System clock
+|  Parameter	|  Value	| Description |
+|-------------|---------|-------------|
+|DATA_BITS	  |   6	    |Configurable data width|
+|PARITY_EN	  |   1	    |Parity enabled|
+|PARITY_TYPE  |   0	    |Even parity|
+|STOP_DUR	    |	  1     |One stop bit|
+|BAUD_RATE	  | 9600	  |Standard UART baud rate|
+|CLK_FREQ	    | 100 MHz |System clock|
 
 Defined in uart_params.sv 
 .
