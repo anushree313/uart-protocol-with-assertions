@@ -1,2 +1,0 @@
-<img src="docs/uart_diagram.png" width="600"/>
-<img src="docs/waveform.png" width="700"/>
