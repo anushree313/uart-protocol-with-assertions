@@ -9,9 +9,10 @@ This project verifies a UART TX/RX communication system using:
 - Loopback architecture (TX → RX)
 - Cocotb testbench with assertions
 - Timing verification for start, data, parity, and stop bits
+- ![image.alt](transmitter.png)
+![image.alt](receiver.png)
 - Test patterns for corner-case validation
 - Waveform inspection through GTKWave
-
 All tests passed successfully with 100% correct data reception 
 
 # Repository Structure
