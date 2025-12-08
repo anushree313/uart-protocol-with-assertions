@@ -1,7 +1,7 @@
 # UART Protocol with Assertions
 This project implements a parameterized UART Transmitter and Receiver and verifies it using a Cocotb-based Python testbench.
 The design is portable, reproducible, and runs entirely on open-source tools: Cocotb, Python, Icarus Verilog, and GTKWave.
-https://github.com/anushree313/uart-protocol-with-assertions/blob/50f303848e6a154794b7bd46a8bbd6d4ba148e3f/receiver.png
+uart1.png
 
 # Project Overview
 This project verifies a UART TX/RX communication system using:
